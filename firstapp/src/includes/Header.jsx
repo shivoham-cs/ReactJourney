@@ -1,5 +1,5 @@
 function Header() {
-  return <header><h2>This is Header</h2></header>;
+  return <header style={{textAlign: "center"}}><h2>This is Header</h2></header>;
 }
 
 export default Header;
