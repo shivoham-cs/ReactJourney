@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aCard {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  max-width: 270px;
+  min-width: 270px;
+  border-radius: 8px;
+  transition: border 0.3s ease-out;
+}
+.aCard:nth-child(1){
+  background-color: rgb(255, 238, 218);
+  border: 2px solid rgb(255, 238, 218);
+}
+.aCard:nth-child(2){
+  background-color: rgb(255, 203, 164);
+  border: 2px solid rgb(255, 203, 164);
+}
+.aCard:nth-child(3){
+  background-color: rgb(255, 163, 163);
+  border: 2px solid rgb(255, 163, 163);
+}
+.aCard:nth-child(4){
+  background-color: rgb(255, 136, 112);
+  border: 2px solid rgb(255, 136, 112);
+}
+.aCard:nth-child(1):hover{
+  border: 2px solid rgb(238, 197, 149);
+}
+.aCard:nth-child(2):hover{
+  border: 2px solid rgb(255, 166, 98);
+}
+.aCard:nth-child(3):hover{
+  border: 2px solid rgb(255, 107, 107);
+}
+.aCard:nth-child(4):hover{
+  border: 2px solid rgb(182, 68, 45);
+}
+.aCard img {
+  border-radius: 5px;
+}
+.hCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.hCard > button{
+  max-width: 70px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.cardMain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
