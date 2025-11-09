@@ -23,7 +23,7 @@ function App() {
   }, [search, users]);
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div>
       <h2>🔍 Live User Search</h2>
       <input
         type="text"
